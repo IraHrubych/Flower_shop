@@ -1,0 +1,50 @@
+.address {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.address img {
+  width: 100%;
+  max-width: 700px;
+  margin-left: 64px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+.contact {
+  width: 100%;
+  justify-content: center;
+  margin: 64px auto 0;
+  display: flex;
+}
+
+.manager {
+  margin-left: 64px;
+}
+
+.form {
+  min-width: 320px;
+}
+
+input#button {
+  width: 110px;
+  background: lightseagreen;
+  cursor: pointer;
+  color: white;
+}
+
+#avatarEl {
+  border-radius: 50%;
+  display: block;
+}
+
+#nameEl {
+  font-weight: bold;
+}
+
+#emailEl, #adressEl {
+  font-size: 14px;
+}

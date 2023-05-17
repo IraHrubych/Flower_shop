@@ -1,0 +1,49 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.article h2 {
+  margin: 32px 0 0;
+}
+
+.article h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-p::first-letter {
+  font-family: 'Pacifico', cursive;
+  color: red;
+  font-size: 24px;
+}
+
+.article:not(:first-child) {
+  margin-top: 16px;
+}
+
+.comments {
+  margin-top: 32px;
+}
+
+.article-title {
+  text-align: center;
+}
+
+.article .comments-link {
+  color: rgb(102, 102, 102);
+}
+
+.article p a {
+  color: blue;
+}
+
+.article p {
+  background-color: lightyellow;
+}
+
+.article p a:hover {
+  text-decoration: none;
+  color: #ccc;
+}

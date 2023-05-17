@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration - Iryna Hrubych</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="main-menu">
+      <ul class="main-menu-area">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="gallery.html">Image gallery</a></li>
+        <li class="active"><a href="registration.html">Registration</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <form class="registration-form" id="form">
+        <div>
+          <label for="fullname">Name, surname.</label>
+          <input id="fullname" type="text" required />
+        </div>
+        <div>
+          <label for="birthday">Date of birth</label>
+          <input id="birthday" type="date" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" required />
+        </div>
+        <div>
+          <label for="site">Your website address</label>
+          <input id="site" type="url" value="http://" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="password" required />
+        </div>
+        <div>
+          <p style="margin-top: 0">Sex:</p>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="another">Another</label> 
+        </div>
+        <div style="margin-top: 24px">
+          <input type="checkbox" id="news" name="news">
+          <label for="news">I agree to receive news by e-mail.</label>
+          <br>
+          <input type="checkbox" id="horns" name="horns">
+          <label for="horns">I agree to receive offers by e-mail.</label>
+        </div>
+        <div style="margin-top: 24px" class="buttons">
+          <input id="clear" type="button" value="Clean up">
+          <input id="submit" type="submit" value="Send">
+        </div>
+      </form>
+    </main>
+        
+    <footer class="footer">
+      <p>&copy; 2022 Iryna Hrubych</p>
+    </footer>
+
+    <script src="js/registration.js"></script>
+  </body>
+</html>

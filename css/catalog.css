@@ -1,0 +1,35 @@
+.catalog-container {
+  margin: 32px 0;
+}
+
+.cat {
+  list-style-image: url('../img/cat.png');
+}
+
+.cat li {
+  position: relative;
+  padding: 4px 0;
+}
+
+.cat li span {
+  font-size: 22px;
+  color: red;
+}
+
+.subcat {
+  list-style-image: url('../img/sub.png');
+}
+
+.subcat li {
+  font-size: 18px;
+  color: black;
+}
+
+.new::after {
+  content: 'new';
+  color: red;
+  font-weight: bold;
+  font-size: 11px;
+  padding-left: 8px;
+  position: absolute;
+}
